@@ -7,7 +7,7 @@
 
 For this project, I wanted to understand what Amazon fulfillment center employees experience at work and which workplace issues might contribute to high employee turnover.
 
-I used Python, Pandas, and Natural Language Processing (NLP) to analyze employee feedback from Glassdoor and YouTube. My goal was to identify common workplace concerns, compare positive and negative feedback, and use my findings to recommend ways Amazon might improve the employee experience.
+I used Python, Pandas, and NLP to analyze employee feedback from Glassdoor and YouTube. My goal was to identify common workplace concerns, compare positive and negative feedback, and use my findings to recommend ways Amazon might improve the employee experience.
 
 ## Business Question
 
