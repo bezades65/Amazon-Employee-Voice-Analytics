@@ -121,7 +121,7 @@ Overall, this project helped me strengthen my Python, data analytics, and proble
 
 ## Repository Guide
 
-- `notebooks/employee_voice_analysis.ipynb`: Python analysis workflow.
+- `notebooks/employee_voice_analysis_1.ipynb`: Python analysis workflow.
 - `scripts/check_outputs.py`: Data integrity verification script.
 - `figures/`: Project visualizations.
 - `final_theme_summary.csv`: Workplace theme and sentiment results.
