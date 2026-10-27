@@ -1,0 +1,17 @@
+employee_status,detected_themes,records_mentioning_theme,records_with_negative,negative_pct
+PART_TIME,Career Growth,1,0,0.0
+PART_TIME,Compensation,11,2,18.2
+PART_TIME,Coworkers,1,0,0.0
+PART_TIME,Management,1,0,0.0
+PART_TIME,Scheduling,7,4,57.1
+PART_TIME,Training,1,1,100.0
+PART_TIME,Workload,6,5,83.3
+REGULAR,Career Growth,12,6,50.0
+REGULAR,Compensation,58,7,12.1
+REGULAR,Coworkers,3,0,0.0
+REGULAR,Job Security,4,2,50.0
+REGULAR,Management,19,12,63.2
+REGULAR,Safety,7,5,71.4
+REGULAR,Scheduling,34,14,41.2
+REGULAR,Training,5,1,20.0
+REGULAR,Workload,20,15,75.0

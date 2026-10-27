@@ -1,0 +1,18 @@
+source,detected_themes,records_mentioning_theme,records_with_negative,negative_pct
+Glassdoor,Workload,27,20,74.1
+Glassdoor,Scheduling,44,18,40.9
+Glassdoor,Management,21,12,57.1
+Glassdoor,Compensation,72,9,12.5
+Glassdoor,Career Growth,13,6,46.2
+Glassdoor,Safety,7,5,71.4
+Glassdoor,Job Security,4,2,50.0
+Glassdoor,Training,6,2,33.3
+Glassdoor,Coworkers,5,0,0.0
+YouTube,Scheduling,9,5,55.6
+YouTube,Job Security,5,4,80.0
+YouTube,Management,6,3,50.0
+YouTube,Safety,5,3,60.0
+YouTube,Compensation,7,2,28.6
+YouTube,Training,7,2,28.6
+YouTube,Career Growth,4,1,25.0
+YouTube,Workload,2,1,50.0
