@@ -25,6 +25,16 @@ Which workplace issues appear alongside negative employee feedback about Amazon 
 | Safety | 12 | 8 | 66.7% |
 | Training | 13 | 4 | 30.8% |
 
+### Data Visualizations
+
+#### Negative Feedback by Workplace Theme
+
+![Negative Feedback by Theme](figures/negative_feedback_by_theme.png)
+
+#### Negative Sentiment Rate by Workplace Theme
+
+![Negative Sentiment Rate](figures/negative_sentiment_rate.png)
+
 These percentages are **not measured employee dissatisfaction rates**. A model classifies the entire passage, which may refer to multiple themes. Also, public-source reviews are not representative of all workers. Training was the focus of an earlier proposal, but these exploratory results offer stronger preliminary support for investigating workload and scheduling.
 
 ## Operational proposals
@@ -35,14 +45,20 @@ These percentages are **not measured employee dissatisfaction rates**. A model c
 
 Measure retention effects only with internal employee records and a comparison group. This project does not observe actual employee departures or demonstrate a causal relationship.
 
+
 ## Repository guide
 
-- `notebooks/employee_voice_analysis.ipynb`: organized reproduction workflow.
-- `notebooks/original_colab_workflow.ipynb`: full historical Colab work with model experiments.
-- `data/source/`: the two supplied source-text CSV files. Their filenames include `_cleaned`; the original review and transcript text fields were selected, but these files are not independently verified raw platform exports.
-- `data/processed/`: intermediate and final tabular exports including the completed 40-row sentiment evaluation.
-- `reports/figures/`: charts of negative theme-matched record counts and shares.
-- `scripts/check_outputs.py`: basic integrity checks on archived exports.
+- `notebooks/employee_voice_analysis.ipynb`: Organized Python analysis workflow.
+- `scripts/check_outputs.py`: Data integrity verification script.
+- `figures/`: Visualizations of workplace themes and negative sentiment.
+- `final_theme_summary.csv`: Workplace theme frequencies and negative sentiment results.
+- `source_comparison.csv`: Glassdoor and YouTube comparisons.
+- `employment_comparison.csv`: Regular and part-time employee comparisons.
+- `business_recommendations.csv`: Proposed operational improvements and success metrics.
+- `requirements.txt`: Python dependencies.
+
+Original employee review text and transcripts are excluded from the public repository.
+
 
 ## Reproduce
 
